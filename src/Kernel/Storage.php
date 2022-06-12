@@ -18,7 +18,7 @@ final class Storage
 	{
 		if (!isset(self::$instance)) {
 			$driver_class = DRIVER;
-			self::$instance = new $driver_class;
+			self::$instance = new $driver_class(...STORAGE);
 		}
 		return self::$instance;
 	}
