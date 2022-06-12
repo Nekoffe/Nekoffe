@@ -1,0 +1,8 @@
+index:
+  path: '/'
+  controller: Index
+
+users:
+  path: '/user/$name'
+  controller: Index
+  access: true

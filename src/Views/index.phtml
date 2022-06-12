@@ -1,0 +1,29 @@
+<?php
+
+use Kernel\View;
+?>
+<main>
+	<h1>Hola <?= $user ?></h1>
+	<?= new View('hola.phtml', [
+		'name' => 'A'
+	]) ?>
+	<?= new View('hola.phtml', [
+		'name' => 'B'
+	]) ?>
+	<?= new View('hola.phtml', [
+		'name' => 'C'
+	]) ?>
+</main>
+
+<script>
+</script>
+
+<style>
+.entry {
+	text-align: justify;
+	padding: 1em;
+	border: 1px gray solid;
+	margin: 2em auto;
+	max-width: 600px;
+}
+</style>
