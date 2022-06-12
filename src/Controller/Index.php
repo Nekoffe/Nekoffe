@@ -3,7 +3,6 @@
 namespace Controller;
 
 use Kernel\Controller;
-use Kernel\Storage;
 use Kernel\View;
 
 class Index extends Controller

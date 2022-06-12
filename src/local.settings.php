@@ -1,6 +1,6 @@
 <?php
 
-const DRIVER = '\\Modules\\Mysql\\Driver';
+const DRIVER = '\\Kernel\\Mysql';
 const STORAGE = [
 	'username' => 'dev',
 	'password' => '123tamarindo',
