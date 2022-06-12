@@ -1,5 +1,6 @@
 drop database if exists Nekoffe;
 create database Nekoffe;
+use Nekoffe;
 
 create table users (
 	id int unsigned not null auto_increment primary key,
